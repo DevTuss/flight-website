@@ -1,0 +1,91 @@
+address {
+    background-color: red;
+    width: 450px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+@media print, screen and (min-width: 480px) {
+    address {
+        background-color: blue;
+    }
+}
+@media print, screen and (min-width: 1024px) {
+    address {
+        background-color: green;
+    }
+}
+
+body {
+    width: 100%;
+    max-width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url(../img/bakgrund.svg);
+    border-radius: 25px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 960px;
+    background-color: white;
+    color: #004a3c;
+}
+
+header {
+    text-align: center;
+    padding-bottom: 30px;
+    font-family: Gadget, sans-serif;
+}
+
+section {
+    text-align: center;
+    padding-bottom: 30px;
+    font-family: Helvetica, sans-serif;
+    height: auto;
+}
+#mainimg {
+    float:left;
+}
+#thumbs {
+    float:left;
+    width: 455px;
+    height: 650px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.fixed {
+    float: left;
+    width: 120px;
+}
+#seats {
+    float: left;
+    margin-left: 95px;
+}
+
+input.seatInfo {
+    background: none;
+    border : none;
+}
+@media print, screen {
+    body.pass {
+        background: none;
+    }
+}
+#booking {
+    float: left;
+    width: 300px;
+    margin-left: 150px;
+}
+h2 {
+    font-size: 28px;
+}
+
+footer {
+    clear: both;
+    border-top: solid #004a3c;
+    border-top-width: 1px;
+    font-size: 10px;
+    text-align: center;
+    padding: 10px;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<!--
+Caroline Engqvist (caen1500)
+caen1500
+caen1500@student.miun.se
+-->
+<html lang="sv">
+<head>
+    <meta charset="utf-8">
+    <title>Ditt Flygbolag</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src = "js/main.js"></script>
+</head>
+
+<body>
+<header>
+    <!-- logga -->
+    <img src="img/logga.svg" alt="Ditt flyg"/>
+
+    <!-- eventuella navigations länkar -->
+    <nav>
+        <a href="booking.html">Bokning</a>
+        <a href="ourfleet.html">Flygplan</a>
+        <a href="employees.html">Anställda</a>
+        <a href="contact.html">Kontakt</a>
+    </nav>
+</header>
+
+<main>
+    <section>
+        <h2>Boka flyg</h2>
+    </section>
+        <form id="booking">
+           <p><label class ="fixed" for = "firstName">Förnamn:</label>
+                <input type ="text" id = "firstName" placeholder="Ange förnamn..."></p>
+           <p><label class ="fixed" for = "lastName">Efternamn:</label>
+                <input type ="text" id = "lastName" placeholder="Ange efternamn..."></p>
+           <p><label class ="fixed" for = "secNr">Personnummer:</label>
+                <input type ="text" id = "secNr" placeholder="Ange personnummer..."></p>
+            <p><label class ="seatInfo" for = "seat">Seat:</label>
+                <input class ="seatInfo" type ="text" id = "seat"></p>
+            <p><label class ="seatInfo" for = "klass">Class:</label>
+                <input class ="seatInfo" type ="text" id = "klass"></p>
+            <input type="button" value="Book" id="bookButton">
+                <input type="button" value="Clear" id="clearButton">
+        </form>
+    <canvas id ="seats" width="90" height="180"></canvas>
+</main>
+
+<footer>
+    &copy; Copyright 2019 Ditt Flygbolag
+</footer>
+</body>
+</html>

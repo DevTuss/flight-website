@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   id="SVGRoot"
+   version="1.1"
+   viewBox="0 0 150 100"
+   height="100px"
+   width="150px">
+  <defs
+     id="defs2766">
+    <radialGradient
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.72979728,0,0,0.53033215,-7.0330165,-33.839658)"
+       r="94.655342"
+       fy="157.90475"
+       fx="110.39814"
+       cy="157.90475"
+       cx="110.39814"
+       id="radialGradient2513"
+       xlink:href="#linearGradient2511" />
+    <linearGradient
+       id="linearGradient2511">
+      <stop
+         id="stop2507"
+         offset="0"
+         style="stop-color:#008080;stop-opacity:1;" />
+      <stop
+         id="stop2509"
+         offset="1"
+         style="stop-color:#008080;stop-opacity:0;" />
+    </linearGradient>
+  </defs>
+  <metadata
+     id="metadata2769">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1">
+    <path
+       style="fill:url(#radialGradient2513);fill-opacity:1;stroke:none;stroke-width:0.17626515px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 4.5525115,49.902311 c 0,0 -1.1033263,-16.551077 40.8229525,-16.551077 0,0 20.295248,-28.0101659 37.396766,-33.52718703 0,0 -1.566315,29.15719703 -7.055359,34.90644103 0,0 33.651349,-0.459761 50.201209,9.195044 0,0 6.06827,-9.195044 16.54986,-7.815785 0,0 0.96651,10.721551 -5.38463,14.145022 0.0508,0.02739 0.10115,0.05516 0.15101,0.08341 6.18473,3.49967 5.23362,13.356697 5.23362,13.356697 -10.48159,1.379258 -16.54986,-7.815786 -16.54986,-7.815786 -16.54986,9.654806 -50.201209,9.195044 -50.201209,9.195044 5.489044,5.749247 7.055359,34.906448 7.055359,34.906448 C 65.670716,94.463552 45.375475,66.453386 45.375475,66.453386 3.4491903,66.453386 4.5525115,49.902311 4.5525115,49.902311"
+       id="path70-6-2-3" />
+  </g>
+</svg>
